@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration</title>
+</head>
+<body>
+
+    <h1>User Registration</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" value="Justina">
+            <br><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" value="Dotson">
+            <br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" value="41">
+            <br><br>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+            <br><br>
+
+            <label for="photo">Profile Picture:</label>
+            <input type="file" id="photo" name="photo">
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Account Details</legend>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="buzepi@mailinator.com">
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" value="password123">
+            <br><br>
+
+            <label>Role:</label>
+
+            <input type="radio" id="admin" name="role">
+            <label for="admin">Admin</label>
+
+            <input type="radio" id="user" name="role" checked>
+            <label for="user">User</label>
+
+        </fieldset>
+
+        <br>
+
+        <input type="checkbox" id="agree" checked>
+        <label for="agree">I agree to the terms and conditions</label>
+
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+
+    </form>
+
+    <br><br>
+
+    <footer>
+        &copy; 2024 MyTodo List. All rights reserved.
+    </footer>
+
+</body>
+</html>
